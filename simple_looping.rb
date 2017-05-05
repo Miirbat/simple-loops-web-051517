@@ -4,7 +4,7 @@ def loop_iterator(number_of_times)
   number = 0
   loop do
     number += 1
-    puts "Welcome to Flatiron School's Web Development Course!"
+    puts phrase = "Welcome to Flatiron School's Web Development Course!"
       break if number == number_of_times
   end
 end
@@ -31,10 +31,10 @@ end
 
 
 def until_iterator(number_of_times)
-  # code your solution here using the "until" keyword
-  # hint: use a counter to tell the until loop when to stop!
-  until number_of_times == 10
+  count = 0
+  until count == number_of_times
     puts "Welcome to Flatiron School's Web Development Course!"
+    count += 1
   end
 end
 
